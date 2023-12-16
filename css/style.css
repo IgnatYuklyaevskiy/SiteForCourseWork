@@ -1,0 +1,397 @@
+@font-face {
+    font-style: normal;
+    font-weight: 600;
+    font-family: Poppins;
+    src: url("../fonts/Poppins/Poppins-SemiBold.ttf");
+}
+@font-face {
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 500;
+    src: url("../fonts/Inter/static/Inter-Medium.ttf");
+}
+@font-face {
+    font-family: Plus Jakarta Sans;
+    font-weight: 500;
+    font-style: normal;
+    src: url("../fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-Medium.ttf");
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: 48px 96px 0px;
+}
+
+/* ---------------------------------HEADER---------------------------------- */
+.header_container {
+    display: flex;
+    align-items: center;
+    padding-bottom: 25px;
+    border-bottom: solid 1px #CBCBCB;
+}
+
+
+/* LOGO */
+.logo {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 111.941px;
+    height: 42.315px;
+    margin-right: 103px;
+
+}
+.logo__text {
+    color: #6C5FBC;
+    font-family: Poppins;
+    font-size: 21.176px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 27.529px */
+}
+
+/* MENU */
+
+.menu {
+    
+    color: #606060;
+    font-family: Inter;
+    font-size: 17.829px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26.743px; /* 150% */
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+
+/* BUTTONS */
+
+.buttons {
+    display: flex;
+    align-items: baseline;
+    flex-grow: 1;
+    justify-content: flex-end;
+
+}
+.login__button {
+    color: #606060;
+    font-family: Inter;
+    font-size: 17.829px;
+    font-style: normal;
+    padding: 17.829px 26.743px;
+    font-weight: 700;
+    line-height: 26.743px; /* 150% */
+}
+.sighUp__button {
+    color: #F9F9F9;
+font-family: Inter;
+font-size: 17.829px;
+font-style: normal;
+font-weight: 700;
+line-height: 26.743px; /* 150% */
+padding: 17.829px 26.743px;
+border-radius: 17.829px;
+background: #6C5FBC;
+}
+
+/* ---------------------------FOOD------------------------------- */
+
+.food_container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.inscription {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.inscription_line {
+    width: 54px;
+    height: 1px;
+    opacity: 0.2;
+    background: #201F1F;
+    margin-right: 20px;
+}
+
+.inscription_text {
+    color: rgba(32, 31, 31, 0.20);
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 18px */
+    letter-spacing: 2px;
+}
+
+/* TEXT AND TITLE */
+
+.food__title {
+    color: #201F1F;
+    font-family: Poppins;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 90px */
+    letter-spacing: -3px;
+    width: 540px;
+    margin-bottom: 16px;
+
+}
+.food__title span {
+    color: #5C4EAE;
+}
+
+.food__text {
+    color: #676767;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 155.556% */
+width: 510px;
+margin-bottom: 53px;
+
+}
+.food__text span {
+    opacity: 0.7;
+color: #6155AE;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+}
+
+/* FOOD INFORM BUTTONS */
+
+.food_inform_buttons {
+    display: flex;
+    margin-bottom: 33px;
+    width: 284px;
+    justify-content: space-between;
+
+}
+
+.getStarted {
+    border-radius: 12.412px;
+    background: #6C5FBC;
+    padding: 18px 30px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16.271px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.163px;
+    text-transform: capitalize;
+}
+
+.goPro {
+    border-radius: 12.412px;
+    border: 1.5px solid #6C5FBC;
+    padding: 18px 27px;
+    color: #6C5FBC;
+    font-family: Poppins;
+    font-size: 16.271px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.163px;
+    text-transform: capitalize;
+}
+
+/* FEEDBACK */
+.rating {
+    display: flex;
+    align-items: last baseline;
+    width: 320px;
+    justify-content: space-between;
+}
+
+.numberOfFeedbacks {
+    color: var(--blue-gray-700, #334155);
+font-family: Plus Jakarta Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+}
+
+/* NEXT SECTION */ /* FOOD IMAGES */
+
+.food__images {
+    position: relative;
+}
+.strelka {
+    position: absolute;
+    top: 200px;
+    right: 40px;
+    z-index: 3;
+}
+.threeLines1 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 3;
+}
+.threeLines2 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 3;
+}
+
+/* -----------------------------------------FEACHERS----------------------------------------- */
+
+.feachers {
+    padding: 49px 249px;
+    background: rgb(92, 78, 174);
+    display: flex;
+    justify-content: space-between;
+}
+
+.numberOfCustomers {
+
+}
+ .bigText {
+    color: var(--base-white, #FFF);
+    text-align: center;
+    font-family: Inter;
+    font-size: 43.2px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px; /* 125% */
+}
+ .smallText {
+    color: #C5BFED;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14.4px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21.6px; /* 150% */
+}
+.feachers_line {
+    width: 1px;
+    height: 123px;
+    opacity: 0.15;
+    background: #C5C5C5;
+}
+
+/* ---------------------------------DOWNLOAD APP---------------------------------- */
+
+.downloadApp {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+.iphone {
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    margin-right: 200px;
+}
+
+.side_text {
+    display: flex;
+    flex-direction: column;
+    padding-top: 75px;
+}
+
+.side_title {
+    color: var(--gray-900, #18181B);
+    font-family: Poppins;
+    font-size: 50.923px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58.198px; /* 114.286% */
+    text-transform: capitalize;
+    margin-bottom: 63px;
+}
+.side_title span {
+    color: #6C5FBC;
+}
+.side_article {
+    position: relative;
+    color: #676767;
+    font-family: Inter;
+    font-size: 20.335px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.502px; /* 150% */
+    margin-bottom: 27px;
+}
+
+.side_article::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: -20px;
+    top: 10px;
+    border-radius: 50%;
+    background-color: #676767;
+}
+
+.side_button {
+    width: 170px;
+    border-radius: 14.675px;
+    background: #6C5FBC;
+    padding: 20px 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.side_button_text {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18.062px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22.577px; /* 125% */
+    text-transform: capitalize;
+}
+
+/* ------------------------------------FOOTER--------------------------------------- */
+
+footer {
+    background: #EAEAEA;
+    padding: 96px 90px 91px 103px;
+    
+}
+.upper_footer {
+    border-bottom: solid 1px #8181814a;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 29px;
+}
+footer .menu__item {
+    color: #999;
+}
+footer .menu {
+    width: 450px;
+}
+
+.lower_footer {
+    display: flex;
+    margin-top: 57px;
+    justify-content: space-between;
+}
+.allRights {
+    color: #999;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal; 
+    font-weight: 500;
+    line-height: 25px; /* 147.059% */
+}
